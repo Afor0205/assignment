@@ -23,3 +23,17 @@ p{
     
     
 }
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .list{
+    padding: 10px;
+    display: inline-flex; 
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
