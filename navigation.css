@@ -50,7 +50,7 @@
 }
 .bod{
     background: black;
-    width: 100%;
+    width: fit-content;
 }
 .two{
     background: lawngreen;
