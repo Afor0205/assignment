@@ -179,6 +179,9 @@ a{
 }
 .bod{
     width: 100%;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 button{
     background: orange;
