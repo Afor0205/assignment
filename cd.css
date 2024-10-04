@@ -50,8 +50,10 @@
 .bb{
     font-family: "Ephesis", cursive;
     padding: 50px;
-    margin: 50px;
+    /* margin: 50px; */
     display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
@@ -81,16 +83,17 @@
     align-items: center;
 }
 .pic{
-    height: 300%;
+    height: 500px;
 }
 .all{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     text-align: center;
+    margin: 150px;
 }
 #car{
-    font-size: 100px;
+    font-size: 50px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -100,8 +103,6 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
-    
 }
 .del{
     display: flex;
@@ -165,3 +166,6 @@ a{
     justify-content: flex-end;
     align-items: flex-end;
   } 
+.we{
+    margin: 0px;
+}
