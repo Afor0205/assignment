@@ -6,12 +6,13 @@
         <title>Checkers</title>
         <link rel="stylesheet" href="checkers.css">
         <style>
-             .head{
+            .head{
             display: flex;
-            align-items: center;
+            flex-direction: row;
             justify-content: center;
-            width: 100%;
-            height: 100%;
+            align-items: center;
+            /* width: 100%; */
+            /* height: 100%; */
           }
           .list{
             padding: 10px;
@@ -19,7 +20,7 @@
             list-style-type: none;
             flex-direction: row;
             justify-content: flex-end;
-            align-items: flex-end;
+            text-align: justify;
             
             
           }
@@ -29,10 +30,17 @@
         <div class="body">
             <div class="head">
                 <ol class="ol">
-                    <li class="list"><a href="index.html">HIRE ME</a><br><br></li>
-                   <li class="list"><a href="First assignment.html">LIST</a><br><br></li>
-                    <li class="list"><a href="tableassignment.html">TABLE</a><br><br></li>
-                   <li class="list"><a href="formassignment.html">EDUCATIONAL FORM</a><br><br></li>
+                    <div class="entire">
+                        <div class="drop">
+                            FOR HTML
+                            <ol>
+                                <li class="lis"><a href="index.html">HIRE ME</a><br><br></li>
+                                <li class="lis"><a href="First assignment.html">LIST</a><br><br></li>
+                                <li class="lis"><a href="tableassignment.html">TABLE</a><br><br></li>
+                                <li class="lis"><a href="formassignment.html">EDUCATIONAL FORM</a><br><br></li>
+                            </ol>
+                        </div>
+                    </div>    
                   <li class="list"><a href="letterwriting.html">LETTER-WRITING</a><br><br></li>
                     <li class="list"><a href="login1.html">LOG-IN 1</a><br><br></li>
                    <li class="list"><a href="login2.html">LOG-IN 2</a><br><br></li>
@@ -45,128 +53,135 @@
                 </ol>
             </div>
         </div>
-        <table class="color" cellspacing="0" cellpadding="30">
-            <tr>
-                <td class="td"></td>
-                <td></td>
-                <td class="tr"></td>
-                <td></td>
-                <td class="tr"></td>
-                <td></td>
-                <td class="tr"></td>
-                <td></td>
-                <td class="tr"></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td class="td"></td>
-                <td></td>
-                <td class="tr"></td>
-                <td></td>
-                <td class="tr"></td>
-                <td></td>
-                <td class="tr"></td>
-                <td></td>
-                <td class="tr"></td>
-            </tr>
-            <tr>
-                <td class="tr"></td>
-                <td></td>
-                <td class="td"></td>
-                <td></td>
-                <td class="tr"></td>
-                <td></td>
-                <td class="tr"></td>
-                <td></td>
-                <td class="tr"></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td class="tr"></td>
-                <td></td>
-                <td class="td"></td>
-                <td></td>
-                <td class="tr"></td>
-                <td></td>
-                <td class="tr"></td>
-                <td></td>
-                <td class="tr"></td>
-            </tr>
-            <tr>
-                <td class="tr"></td>
-                <td></td>
-                <td class="tr"></td>
-                <td></td>
-                <td class="td"></td>
-                <td></td>
-                <td class="tr"></td>
-                <td></td>
-                <td class="tr"></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td class="tr"></td>
-                <td></td>
-                <td class="tr"></td>
-                <td></td>
-                <td class="td"></td>
-                <td></td>
-                <td class="tr"></td>
-                <td></td>
-                <td class="tr"></td>
-            </tr>
-            <tr>
-                <td class="tr"></td>
-                <td></td>
-                <td class="tr"></td>
-                <td></td>
-                <td class="tr"></td>
-                <td></td>
-                <td class="td"></td>
-                <td></td>
-                <td class="tr"></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td class="tr"></td>
-                <td></td>
-                <td class="tr"></td>
-                <td></td>
-                <td class="tr"></td>
-                <td></td>
-                <td class="td"></td>
-                <td></td>
-                <td class="tr"></td>
-            </tr>
-            <tr>
-                <td class="tr"></td>
-                <td></td>
-                <td class="tr"></td>
-                <td></td>
-                <td class="tr"></td>
-                <td></td>
-                <td class="tr"></td>
-                <td></td>
-                <td class="td"></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td class="tr"></td>
-                <td></td>
-                <td class="tr"></td>
-                <td></td>
-                <td class="tr"></td>
-                <td></td>
-                <td class="tr"></td>
-                <td></td>
-                <td class="td"></td>
-            </tr>
-        </table>
+        <div class="sep">
+            <div tabble>
+            <table class="color" cellspacing="0" cellpadding="30">
+                <tr>
+                    <td class="td"></td>
+                    <td></td>
+                    <td class="tr"></td>
+                    <td></td>
+                    <td class="tr"></td>
+                    <td></td>
+                    <td class="tr"></td>
+                    <td></td>
+                    <td class="tr"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="td"></td>
+                    <td></td>
+                    <td class="tr"></td>
+                    <td></td>
+                    <td class="tr"></td>
+                    <td></td>
+                    <td class="tr"></td>
+                    <td></td>
+                    <td class="tr"></td>
+                </tr>
+                <tr>
+                    <td class="tr"></td>
+                    <td></td>
+                    <td class="td"></td>
+                    <td></td>
+                    <td class="tr"></td>
+                    <td></td>
+                    <td class="tr"></td>
+                    <td></td>
+                    <td class="tr"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="tr"></td>
+                    <td></td>
+                    <td class="td"></td>
+                    <td></td>
+                    <td class="tr"></td>
+                    <td></td>
+                    <td class="tr"></td>
+                    <td></td>
+                    <td class="tr"></td>
+                </tr>
+                <tr>
+                    <td class="tr"></td>
+                    <td></td>
+                    <td class="tr"></td>
+                    <td></td>
+                    <td class="td"></td>
+                    <td></td>
+                    <td class="tr"></td>
+                    <td></td>
+                    <td class="tr"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="tr"></td>
+                    <td></td>
+                    <td class="tr"></td>
+                    <td></td>
+                    <td class="td"></td>
+                    <td></td>
+                    <td class="tr"></td>
+                    <td></td>
+                    <td class="tr"></td>
+                </tr>
+                <tr>
+                    <td class="tr"></td>
+                    <td></td>
+                    <td class="tr"></td>
+                    <td></td>
+                    <td class="tr"></td>
+                    <td></td>
+                    <td class="td"></td>
+                    <td></td>
+                    <td class="tr"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="tr"></td>
+                    <td></td>
+                    <td class="tr"></td>
+                    <td></td>
+                    <td class="tr"></td>
+                    <td></td>
+                    <td class="td"></td>
+                    <td></td>
+                    <td class="tr"></td>
+                </tr>
+                <tr>
+                    <td class="tr"></td>
+                    <td></td>
+                    <td class="tr"></td>
+                    <td></td>
+                    <td class="tr"></td>
+                    <td></td>
+                    <td class="tr"></td>
+                    <td></td>
+                    <td class="td"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="tr"></td>
+                    <td></td>
+                    <td class="tr"></td>
+                    <td></td>
+                    <td class="tr"></td>
+                    <td></td>
+                    <td class="tr"></td>
+                    <td></td>
+                    <td class="td"></td>
+                </tr>
+            </table>
+            </div>
+            <div class="goat">
+                <img src="Images/IMG_20240621_224915_791.jpg" class="got">
+            </div>
+        </div>
         <a href="https://wa.me/qr/JEPYXPDFOOM2I1"><img class="image" src="Images/Download_Whatsapp_logo__3d_render_-removebg-preview.png" >
         </a>
     </body>

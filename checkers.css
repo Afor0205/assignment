@@ -1,5 +1,6 @@
 table{
     border: 20px groove gold;
+    height: 100px;
 }
 
 .tr:nth-child(even){
@@ -21,11 +22,12 @@ table{
 ol{
     background: rgba(34, 18, 18, 0.734);
     padding: 15px 15px;
-    width: fit-content;
-    text-align: justify;
+    width: 100%;
     border-radius: 5px;
-
-    
+    display: flex;
+    flex-direction: row;
+    justify-items: center;   
+    align-items: center; 
 }
 a{
     color: red;
@@ -38,7 +40,7 @@ a{
 }
 head{
     display: flex;
-    align-items: center;
+    text-align: justify;
     justify-content: center;
     width: 100%;
     height: 100%;
@@ -50,6 +52,76 @@ head{
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
+}
+.sep{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.got{
+    height: 250px;
+    border-radius: 100%;
+    width: 300px;
+}
+.goat{
+    margin-right: 300px;
+    animation: goat 0.5s linear 0s infinite forwards;
+}
+@keyframes goat{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.lis{
+    margin: 10px;
+    width: fit-content;
+
+}
+.drop{
+    background: rgb(138, 7, 7);
     
-    
-  }
+
+}
+.drop .lis{
+    background: linear-gradient(180deg, violet, pink, aqua);
+    border: none;
+    width: fit-content;
+    color: white;
+}
+.drop .lis:hover{
+    margin: 10px;
+    padding: 10px;
+    background: linear-gradient(180deg, black, red);
+    transition: all 1s ease-in-out 0s ;
+}
+.drop>ol{
+    width: fit-content;
+    list-style-type: none;
+    visibility: hidden;
+    position: absolute;
+    animation-timing-function: ease-in-out;
+    background: darkgray;
+}
+.drop:hover ol{
+    position: relative;
+    visibility: visible;
+
+    animation: japa 1s ease-in-out 0s infinite alternate;
+}
+@keyframes japa{
+    0%{
+        background: darkgray;
+        margin: 2px;
+        /* animation-timing-function: ease-in; */
+    }
+    100%{
+        background: brown;
+        margin: 5px;
+        /* animation-timing-function: ease-out; */
+    }
+}
+
