@@ -9,7 +9,7 @@ a{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: -50px;
+    /* margin-top: -50px; */
 }
 .list{
     padding: 5px;
